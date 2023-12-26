@@ -171,7 +171,8 @@ for i in range(N):
         total_score += playerscores[i][j]
         total_score += opponentscores[j][i]
     #scores
-    print(total_score / 100)
+    print("Average number of points per 200 round game \n")
+    print(names[i], '\t', total_score / 100)
 
 
 
